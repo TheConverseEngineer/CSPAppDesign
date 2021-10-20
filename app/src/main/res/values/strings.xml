@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">U3 CSP App Design</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Home Screen</string>
+    <string name="second_fragment_label">Info Screen</string>
+
+    <string name="CPU">CPU</string>
+    <string name="GPU">GPU</string>
+    <string name="Memory">Memory</string>
+    <string name="Cooling">Cooling</string>
+
+    <string name="home">Home</string>
+    <string name="description_text">test</string>
+    <string name="purchase_text">test</string>
+
+    <string name="title_text">Computer Parts</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

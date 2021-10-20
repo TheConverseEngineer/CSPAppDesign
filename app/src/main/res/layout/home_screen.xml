@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4020407"
+    tools:context=".HomeScreen">
+
+    <TextView
+        android:id="@+id/title_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title_text"
+        android:textAlignment="center"
+        android:textColor="#EF2C2C"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cpu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="135dp"
+        android:backgroundTint="#9A771616"
+        android:text="@string/CPU"
+        app:layout_constraintStart_toStartOf="@+id/pc_image"
+        app:layout_constraintTop_toTopOf="@+id/pc_image" />
+
+    <ImageView
+        android:id="@+id/pc_image"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_block"
+        android:src="@drawable/computer"/>
+
+    <Button
+        android:id="@+id/gpu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="#9A771616"
+        android:text="@string/GPU"
+        app:layout_constraintStart_toStartOf="@+id/pc_image"
+        app:layout_constraintTop_toTopOf="@+id/pc_image" />
+
+    <Button
+        android:id="@+id/cooling_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="115dp"
+        android:backgroundTint="#9A771616"
+        android:text="@string/Cooling"
+        app:layout_constraintStart_toStartOf="@+id/pc_image"
+        app:layout_constraintTop_toTopOf="@+id/pc_image" />
+
+    <Button
+        android:id="@+id/memory_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#9A771616"
+        android:text="@string/Memory"
+        app:layout_constraintStart_toStartOf="@+id/pc_image"
+        app:layout_constraintTop_toTopOf="@+id/pc_image" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="Made By Vraj Parikh and Joel Wu"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pc_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
