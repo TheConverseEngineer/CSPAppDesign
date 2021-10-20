@@ -6,4 +6,4 @@ Please refer to the main branch for our code.
 
 The complete decompiled code (including the contents of the main branch) can be found in the core branch
 
-The apk file can be used to run the app on an emulator.
+The .aab file can be used to run the app on an emulator. It is found in app -> release
